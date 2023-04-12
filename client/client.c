@@ -15,8 +15,8 @@ int main(){
 
     // Set the hints:
     memset(&hints, 0, sizeof(hints));
-    hints.ai_family = PF_UNSPEC;
     // Unspecified protocol (IPv4 or IPv6 okay)
+    hints.ai_family = PF_UNSPEC;
     hints.ai_socktype = SOCK_STREAM; // Want a TCP socket
 
 
